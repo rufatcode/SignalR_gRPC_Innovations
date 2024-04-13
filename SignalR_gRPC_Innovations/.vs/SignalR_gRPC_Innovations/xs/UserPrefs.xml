@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{65F6A84E-41F4-4CA0-8F04-DE44EB0CC081}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SignalR__gRPC__Innovations FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SignalR_gRPC_Innovations/Properties/launchSettings.json">
+    <Files>
+      <File FileName="SignalR_gRPC_Innovations/ServiceRegistration.cs" Line="77" Column="55" />
+      <File FileName="SignalR_gRPC_Innovations/WeatherForecast.cs" Line="13" Column="1" />
+      <File FileName="SignalR_gRPC_Innovations/Controllers/WeatherForecastController.cs" Line="38" Column="2" />
+      <File FileName="SignalR_gRPC_Innovations/Properties/launchSettings.json" Line="24" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SignalR_gRPC_Innovations" expanded="True">
+            <Node name="SignalR_gRPC_Innovations" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
