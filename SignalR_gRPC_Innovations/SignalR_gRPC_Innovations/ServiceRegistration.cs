@@ -78,6 +78,24 @@ namespace SignalR_gRPC_Innovations
             });
             #endregion
 
+            #region OutputCaching default
+            services.AddOutputCache();
+            #endregion
+
+            #region Custom
+            services.AddOutputCache(options =>
+            {
+                options.AddBasePolicy(policy =>
+                {
+                    policy.Expire(TimeSpan.FromSeconds(20));
+                });
+                options.AddPolicy("Custom",policy =>
+                {
+                    policy.Expire(TimeSpan.FromSeconds(30));
+                });
+            });
+            #endregion
+
         }
     }
 }
